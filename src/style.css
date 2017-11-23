@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500i,600');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: rgb(248, 248, 248);
+}
+
+nav {
+	font-family: 'Raleway', sans-serif;
+	background-color: #420030;
+	border-bottom: 1px solid #420030;
+	box-shadow: 0 4px 8px -3px #999;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 3px;
+	color: #ddd;
+}
+
+#app {
+	margin: 60px auto;
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+
+
+	background:#e1e2e1 url('https://source.unsplash.com/KAgGjw4HgNY/') center center no-repeat;
+	background-size: cover;
+	opacity: 0.95;
+	height: 100vh;
+	width: 100vw;
+	/*color: #e1e2e1;*/
+}
+.message-input-container {
+	margin: 80px auto 30px;
+	text-align: center;
+	width: 92%;
+	box-shadow: 0 3px 10px -3px rgba(0,0,0,0.1);
+}
+
+.search-bar input {
+	/*width: 75%;*/
+}
+
+.video-item img {
+	max-width: 64px;
+}
+
+.video-detail .details {
+	margin-top: 10px;
+	padding: 10px;
+	border:1px solid #ddd;
+	border-radius: 4px;
+}
+
+.list-group {
+	padding-right: 0;
+	box-shadow: 0 3px 5px 0px rgba(0,0,0,.2);
+
+}
+.list-group-item {
+	cursor: pointer;
+}
+
+/*.list-group-item:hover {
+	background-color: #eee;
+}*/
+
+.media-heading {
+	font-weight: bold;
+}
+
+.details {
+	box-shadow: 0 1px 5px 0px rgba(0,0,0,.2);
+}
+
+.details .title {
+	font-weight: bold;
+}
+
+.embed-responsive {
+	box-shadow: 0 3px 5px 1px rgba(0,0,0,.2);
+
+}
+
+.glyphicon {
+	margin-right: 5px;
+}
+
+.message-input {
+	line-height: 38px;
+	/*width: 90%;*/
+}
+
+.message-list-container {
+	display: table;
+	position: relative;
+	text-align: left;
+	width: 100%;
+
+}
